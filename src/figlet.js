@@ -3,7 +3,7 @@ import figlet from 'figlet';
 import chalk from 'chalk';
 
 async function showText(text) {
-  figlet('Meet App', (err, data) => {
+  figlet('MeetApp', (err, data) => {
     if (err) {
       console.log('Ops, something went wrong...');
       return;
